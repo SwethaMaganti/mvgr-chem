@@ -1,0 +1,131 @@
+
+.px-4{
+    padding: 15px!important;
+}
+
+.bg-image{
+    background-image: url('./images/chem.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    filter:saturate(50%);
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+  }
+
+.mask{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-group{
+    gap: 40px;
+    justify-content: center;
+}
+
+.cards-text-title{
+    text-align: center;
+}
+
+.cards-text-title1{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.vision{
+    justify-content: center;
+    align-items: center;
+}
+
+.mission{
+    object-fit: cover;
+}
+
+.mission-bg{
+    margin: 20px 40px;
+    background-color: #E1E4E9;
+    padding: 20px 40px 30px 40px;
+}
+
+.placements{
+    margin: 40px;
+}
+
+.company-logo{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.mission-btn{
+    color: blue;
+}
+
+.hero-button{
+    border: none;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.hero-button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+@media(max-width:586px){
+    .bg-image{
+        background-size: contain;
+        position: relative;
+        height: 30vh;
+        width: 100vw;
+    }
+    .mask{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .text-primary{
+        font-size: 12px;
+    }
+    .img-fluid{
+        width: 45px;
+    }
+    .hero-title{
+        font-size: small;
+        /* color: black; */
+    }
+    .hero-subtitle{
+        font-size: small;
+        /* color: black; */
+    }
+    .hero-button{
+        color: white;
+        font-size: small;
+        /* border: 1px solid white; */
+    }
+    .card-group{
+        margin-top: 0px;
+    }
+}
+
+.img-fluid{
+    border-radius: 50%;
+}
